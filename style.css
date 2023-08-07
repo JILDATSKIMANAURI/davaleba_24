@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+  }
+  @font-face {
+    font-family: Inter;
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf);
+  }
+  *{
+    font-family: Inter;  
+  }
+.logo{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+.access{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-top: 149px;
+}
+.acaunt{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.box{
+    width: 360px;
+    height: 44px;
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #D0D5DD;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.chek{
+    width: 355px;
+    height: 20px;
+    margin-top: 20px;
+    left: 140px;
+    display: inline-flex;
+    align-items: center;
+    gap: 113px;
+}
+.remembar{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.forgot{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color:#5429FF;
+
+}
+.button{
+    margin-top: 60px;
+    border-radius: 8px;
+}
+.Sign-in{
+    background-color: #5429FF;
+    border-radius: 8px;
+    width: 360px;
+    height: 44px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.Google {
+    width: 360px;
+    height: 44px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #D0D5DD;
+}
+
+.sign{
+    width: 360px;
+    height: 21px;
+    margin-top: 50px;
+    left: 140px;
+}
+.signup{
+    color:#5429FF;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 35%;
+    }
+}
